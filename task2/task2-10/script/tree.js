@@ -3,7 +3,7 @@ var stack = []; //用于存储按前序顺序排列的结点
 window.onload = function() {
 	//获取按钮
 	var btn = document.getElementsByTagName("input");
-
+	dlr(bitree); //获取前序序列
 	addHandler(btn[0], "click", show); //给按钮添加点击事件
 }
 
@@ -24,7 +24,6 @@ function show() {
 	//获取根结点
 	var bitree = document.getElementById("bitree");
 	var i = 0;
-	dlr(bitree);
 	var len = stack.length;
 	//按前序改变结点背景颜色
 	setTimeout(function cb(){
