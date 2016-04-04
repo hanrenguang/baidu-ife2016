@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	font-size: 12px;
+	font-family: "Microsoft Yahei",sans-serif;
+}
+
+div {
+	display: inline-block;
+	display: -moz-inline-stack; /*Firefox2*/
+	vertical-align: top;
+	/*IE6 & 7*/
+	*display: inline;
+	zoom: 1;
+	border: 1px solid #000;
+	padding: 10px;
+	background-color: #fff;
+}
+
+#bitree {
+	margin: 20px;
+}
+
+.nativeBg {
+	background-color: #fff;
+}
+
+.changeBg {
+	background-color: #0001FE;
+}
+
+.show {
+	display: block;
+	width: 80px;
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 50px;
+	text-align: center;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+}
