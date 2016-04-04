@@ -22,7 +22,7 @@ function addHandler(element, event, func) {
 
 function show() {
 	//获取根结点
-	var bitree = document.getElementsByTagName("div")[0];
+	var bitree = document.getElementById("bitree");
 	var i = 0;
 	dlr(bitree);
 	var len = stack.length;
